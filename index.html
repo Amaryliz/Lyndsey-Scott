@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body id="dark-mode">
+    <button id="dark-mode-btn" onclick="toggleDarkMode()">Dark Mode</button>
     <h1>Lyndsey Scott</h1>
     <h2>A model, actor, and Software Engineer</h2>
     <div>
@@ -55,13 +56,29 @@
         corner when she got a call from fashion house Calvin Klein.
       </li>
     </ul>
+    <div id="gallery">
+      <img
+        class="photo-gallery"
+        src="https://media.glamour.com/photos/5696496293ef4b09521038cd/master/pass/fashion-2014-01-lyndsey-scott-main.jpg"
+        alt="Lyndsey on the runway"
+      />
+      <img
+        class="photo-gallery"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lyndsey_Scott_in_flowers_%28cropped%29.jpg/640px-Lyndsey_Scott_in_flowers_%28cropped%29.jpg"
+        alt="Lyndsey in blazer"
+      />
+      <img
+        class="photo-gallery"
+        src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ff50de00e-6321-11e7-b102-510be645bace.jpg?crop=718%2C718%2C180%2C0"
+        alt="Lyndsey with computer"
+      />
+    </div>
     <blockquote>
       <p id="quote">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti,
-        dolor amet doloribus eos, consequuntur cum ducimus quam illo delectus
-        repellendus mollitia consectetur eius facilis in. Distinctio consequatur
-        inventore impedit.
+        “You might not think you can code, you might not see any coders that
+        look like you, but trust me, you can do it!”
       </p>
     </blockquote>
+    <script src="main.js"></script>
   </body>
 </html>
